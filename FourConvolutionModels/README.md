@@ -1,5 +1,5 @@
 # Comparing Different CNN Models for Cats vs. Dogs Classification
-This is a Kaggle notebook where I have experimented with four different convolutional neural network (CNN) models for a classic binary classification problem: cats vs. dogs. The notebook includes the following models:
+This is a [Kaggle notebook](https://www.kaggle.com/code/shibinjudah/4-models-cnn-image-augmentation-transfer-learning) where I have experimented with four different convolutional neural network (CNN) models for a classic binary classification problem: cats vs. dogs. The notebook includes the following models:
 
 * **Model 1:** A basic deep learning model
 * **Model 2:** A deep learning model with a data augmentation layer
@@ -33,5 +33,6 @@ I have used popular deep learning libraries such as TensorFlow and Keras, and ha
 augmentation and transfer learning to improve model accuracy. The notebook includes both Kaggle datasets for comparison. 
 The notebook is easy to use and can be a helpful resource for anyone interested in deep learning and computer vision.
 
-
+## Source:
+if you find this [Kaggle Notebook](https://www.kaggle.com/code/shibinjudah/4-models-cnn-image-augmentation-transfer-learning) useful, please share it with your friends who are also learning ML and DL, and an upvote is always appreciated! 
 
