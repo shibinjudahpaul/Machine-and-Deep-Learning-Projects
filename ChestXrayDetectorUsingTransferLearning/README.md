@@ -9,30 +9,35 @@ All chest X-ray imaging was performed as part of patients’ routine clinical ca
 ## Dependencies
 This project requires the following dependencies:
 
-Python 3.x
-TensorFlow 2.x
-Keras
-NumPy
-Matplotlib
-Pandas
+- Python 3.x
+- TensorFlow 2.x
+- Keras
+- NumPy
+- Matplotlib
+- Pandas
+
 You can install these dependencies using pip.
-
-Copy code
+```
 pip install tensorflow keras numpy matplotlib pandas
+```
+
 ## Usage
-To train the model, run the train.py script. The trained model will be saved in the model directory.
+To train the model, run the training.py script. The trained model will be saved in the model directory.
 
-Copy code
-python train.py
-To test the model on a single X-ray image, run the predict.py script.
+```
+python training.py
+```
 
-bash
-Copy code
+To test the model on a single X-ray image, run the main.py script.
+
+```
 python predict.py path/to/image
+```
+
 ## Results
-The model achieves an accuracy of 93.05% on the test set. The confusion matrix and classification report can be found in the results directory.
+The model achieves an accuracy of 98.05% on the test set. The plots and a sample test report can be found in the results directory.
 
 ## Future Work
-Improve the accuracy of the model by fine-tuning the hyperparameters and using a larger dataset.
-Develop a web application for easy access to the model for healthcare professionals.
-Explore the use of other deep learning architectures for this task.
+- Improve the accuracy of the model by fine-tuning the hyperparameters and using a larger dataset.
+- Develop a web application for easy access to the model for healthcare professionals.
+- Explore the use of other deep learning architectures for this task.
